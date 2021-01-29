@@ -1,0 +1,11 @@
+.kanit{
+    font-family: 'Kanit', sans-serif;
+}
+.backpic{
+    background-image: url('images/blackwall.jpg');
+    width:1760px;
+    height: 1000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: 100% 100%;
+}

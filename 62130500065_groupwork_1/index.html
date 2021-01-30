@@ -39,53 +39,76 @@
 </head>
 
 <body >
-  <nav class="  bg-black shadow p-2 grid grid-cols-12">
+  <div id="app">
+  <nav class="  bg-black shadow p-0.5 grid grid-cols-12">
     
       <div class="col-start-1 col-span-2">
-      <img src="./images/BlackDesertLogo.png" class="mx-auto my-2" width="159px" height="39px" alt="Black Desert Remastered"></img>
+      <img src="images/BlackDesertLogo.png" class="mx-auto my-2"alt="Black Desert Remastered"></img>
     </div>
     <div class="col-start-3 border-white">
-      <img src="images/ham.png" class=" my-2 border-white" width="50px" height="50px">
+      <img src="images/ham2.png" class=" my-2 border-white" >
     </div>
 
 
-    <div class="col-start-9 col-span-2 mx-auto my-2 space-x-4" >
-      <li>
-      <img src="images/person.png" class="float-left inline-block " >
-    <a href="" class="text-white mx-auto text-2xl mt-2 inline-block kanit">สมัครสมาชิก</a>
-  </li>
+    <div class="inline-flex col-start-10 col-span-3 mx-auto my-2 space-x-4" >
+      <li class="flex-1">
+      
+    <a href="" class="text-white mx-auto text-ml mt-2 inline-block kanit">
+      <img src="images/person.png" class="mx-auto my-1 mr-2 float-left inline-block piceiei" >
+      สมัครสมาชิก</a>
+  </li class="flex-1">
+  <li>
+    
+    <a href="" class="text-white mx-auto text-ml mt-2 inline-block kanit">
+      <img src="images/login.png" class="mx-auto my-1 mr-2  float-left inline-block wtf" >
+      เข้าสู่ระบบ</a></li>
     </div>
     
   
-    <div class="col-start-11 col-span-2 mx-auto my-2 space-x-4">
+    <!-- <div class="col-start-12 mx-auto my-2 space-x-4">
 
       <li>
-      <img src="images/login.png" class="float-left inline-block">
-      <a href="" class="text-white mx-auto text-2xl mt-2 inline-block kanit">เข้าสู่ระบบ</a></li>
+      <img src="images/login.png" class="float-left inline-block wtf" >
+      <a href="" class="text-white mx-auto text-ml mt-2 inline-block kanit">เข้าสู่ระบบ</a></li>
     
   
-    </div>
+    </div> -->
   </nav>
 
-
-
-  <div id="app" class="h-screen w-full bg-gray-200 flex items-start justify-start ">
-    <div class="backpic">
-      <h2 class="kanit">ข่าวสาร</h2>
-
-
-
-
-
+  <div id="next" class="backpic kanit">
+    <h2 class="text-center t45 text-white py-12">ข่าวสาร</h2>
+    <div class="grid grid-cols-10 gap-6 pb-12">
+      <a href=""  class="col-start-3 col-span-2"><img src="images/new1.PNG" alt=""></a>
+      <a href=""  class="col-start-5 col-span-2"><img src="images/new2.PNG" alt=""></a>
+      <a href=""  class="col-start-7 col-span-2"><img src="images/new3.PNG" alt=""></a>
     </div>
-    <div class="w-full flex items-center justify-end">
+  </div>
 
-      <i class="material-icons">face</i>
-
-      <p class="font-semibold text-xl tracking-wider uppercase px-3"> {{ msg }}​​</p>
-
+  <div id ="news" class="py-11">
+    <div>
+      <ul  class="inline-flex grid grid-cols-8 kanit ">
+      <!-- <ul class="justify-self-center flex space-x-4"> -->
+        <li class="col-start-2 flex-1 text-center border-2 border-gray-200 hover:border-gray-500  new p-4"><a href=""  class="">ทั้งหมด</a></li>
+        <li  class="col-start-3 flex-1 text-center border-2 border-gray-200 hover:border-gray-500  new p-4"><a href="">ประกาศ</a></li>
+        <li class="col-start-4 flex-1 text-center border-2 border-gray-200 hover:border-gray-500  new p-4"><a href="" >อัพเดท</a></li>
+        <li class="col-start-5 flex-1 text-center border-2 border-gray-200 hover:border-gray-500  new p-4"><a href="" >กิจกรรม</a></li>
+        <li class="col-start-6 flex-1 text-center border-2 border-gray-200 hover:border-gray-500  new p-4"><a href="" >GM Note</a></li>
+        <li class="col-start-7 flex-1 text-center border-2 border-gray-200 hover:border-gray-500  new p-4"><a href="" >ร้านเพิร์ล</a></li>
+      </ul>
+      <!-- </ul> -->
     </div>
+    
+  </div>
 
+  <div id="article" class="grid grid-cols-8">
+    <ul class="col-start-2 col-end-8" >
+      <li class="p-4 arti"><img src="images/arti1.jpg" ></li>
+      <li class="p-4 arti"><img src="images/arti1.jpg" ></li>
+    </ul>
+  </div>
+
+
+  
   </div>
 
 

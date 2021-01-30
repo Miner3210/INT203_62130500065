@@ -3,9 +3,32 @@
 }
 .backpic{
     background-image: url('images/blackwall.jpg');
-    width:1760px;
+    width:1536px;
     height: 1000;
     background-repeat: no-repeat;
     background-attachment: fixed;
   background-size: 100% 100%;
+}
+
+.t45{
+  font-size: 45px;
+}
+
+
+li.new + li.new{
+  border-left: none;
+}
+li.new + li.new:hover{
+  border: 2px solid gray;
+  --tw-border-opacity: 1;
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+}
+
+.news{
+  border-bottom: 2px black;
+}
+li.arti{
+  border: 1px solid #dfdfdf;
+  border-left: none;
+  border-right: none;
 }

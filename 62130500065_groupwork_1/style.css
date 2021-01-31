@@ -3,10 +3,11 @@
 }
 .backpic{
     background-image: url('images/blackwall.jpg');
-    width:1536px;
+    width:1519px;
     height: 1000;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: local;
+    background-position: center;
   background-size: 100% 100%;
 }
 
@@ -31,4 +32,11 @@ li.arti{
   border: 1px solid #dfdfdf;
   border-left: none;
   border-right: none;
+}
+li.arti + li.arti{
+  border-top: none;
+}
+
+input.inputtext:hover:-ms-input-placeholder {
+  color: black;
 }
